@@ -1,4 +1,4 @@
-## DIGITAL PID CONTROL APLLIED FOR DC DC CONVERTER BUCK BOOST 
+## DIGITAL PID CONTROL APPLIED FOR DC DC CONVERTER BUCK BOOST 
 
 Motivations:
 
@@ -9,4 +9,5 @@ Features:
 Voltage and current control using PID control. 
 
 Isso é uma alteração !!
+
 
