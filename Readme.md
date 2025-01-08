@@ -1,8 +1,8 @@
-<<<<<<< HEAD
-## DIGITAL PID CONTROL APPLIED FOR DC DC CONVERTER BUCK BOOST 
-=======
 
->>>>>>> 6a31b7b5bed45bcbc77f710f6403b8e03ad183e4
+## DIGITAL PID CONTROL APPLIED FOR DC DC CONVERTER BUCK BOOST 
+
+
+
 
 Motivations:
 
@@ -17,6 +17,4 @@ Isso é uma alteração !!
 <<<<<<< HEAD
 
 Correção arquivo Readme
-======= 
-‖ 
->>>>>>> 6a31b7b5bed45bcbc77f710f6403b8e03ad183e4
+
