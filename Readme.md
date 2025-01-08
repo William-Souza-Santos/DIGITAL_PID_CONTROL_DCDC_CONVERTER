@@ -14,7 +14,6 @@ Voltage and current control using PID control.
 
 Isso é uma alteração !!
 
-<<<<<<< HEAD
 
 Correção arquivo Readme
 
