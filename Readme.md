@@ -23,5 +23,7 @@ Correção vinculação conta github com conta git local
 
 Correção arquivo Readme !!
 
-Outro teste final
+Outro teste final 
+
+teste movimentação do git status profile
 
