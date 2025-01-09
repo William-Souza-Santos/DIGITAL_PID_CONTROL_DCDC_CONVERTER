@@ -18,3 +18,4 @@ Isso é uma alteração !!
 
 Correção arquivo Readme
 
+Correção vinculação conta github com conta git local
