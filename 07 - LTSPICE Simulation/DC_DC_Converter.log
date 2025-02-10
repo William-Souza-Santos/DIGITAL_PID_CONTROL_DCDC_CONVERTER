@@ -1,0 +1,15 @@
+LTspice 24.1.1 for Windows
+Circuit: C:\Users\55119\Desktop\DIGITAL_PID_CONTROL_DCDC_CONVERTER\07 - LTSPICE Simulation\DC_DC_Converter.net
+Start Time: Sun Feb  9 20:17:19 2025
+solver = Normal
+Maximum thread count: 8
+tnom = 27
+temp = 27
+method = trap
+Direct Newton iteration for .op point succeeded.
+Total elapsed time: 0.386 seconds.
+
+Files loaded:
+C:\Users\55119\Desktop\DIGITAL_PID_CONTROL_DCDC_CONVERTER\07 - LTSPICE Simulation\DC_DC_Converter.net
+C:\Users\55119\AppData\Local\LTspice\lib\cmp\standard.dio
+
