@@ -1,11 +1,11 @@
 <?xml version='1.0' encoding='UTF-8' standalone='yes'?>
 <WORKSPACE>
  <FRAME activewindow="0">
-  <PLACEMENT>2c0000000000000001000000ffffffffffffffffffffffffffffffff2f0a0000620100004b10000050050000</PLACEMENT>
+  <PLACEMENT>2c0000000200000003000000ffffffffffffffffffffffffffffffffbe09000069010000da0f000057050000</PLACEMENT>
   <WINDOW type="default" module="ISIS">
-   <editor metric="0" gridmajor="2540000" mode="00000014" zoom="0" scale="114" flipped="0" gridminor="254000" gridmode="32" snapidx="2" snap="254000" xcursor="0" orgmode="0" snaprange="127000">
+   <editor metric="0" gridmajor="2540000" mode="00000001" zoom="0" scale="234" flipped="0" gridminor="254000" gridmode="32" snapidx="2" snap="254000" xcursor="0" orgmode="0" snaprange="127000">
     <world y1="-8890000" x1="-12700000" y2="8890000" x2="12700000"/>
-    <centre x="0" y="0"/>
+    <centre x="1016000" y="-4572000"/>
     <origin x="0" y="0"/>
    </editor>
   </WINDOW>
@@ -18,9 +18,9 @@
   </editor>
  </MODULE>
  <MODULE name="ISIS">
-  <editor metric="0" gridmajor="2540000" mode="00000014" zoom="0" scale="114" flipped="0" gridminor="254000" gridmode="32" snapidx="2" snap="254000" xcursor="0" orgmode="0" snaprange="127000">
+  <editor metric="0" gridmajor="2540000" mode="00000001" zoom="0" scale="234" flipped="0" gridminor="254000" gridmode="32" snapidx="2" snap="254000" xcursor="0" orgmode="0" snaprange="127000">
    <world y1="-8890000" x1="-12700000" y2="8890000" x2="12700000"/>
-   <centre x="0" y="0"/>
+   <centre x="1016000" y="-4572000"/>
    <origin x="0" y="0"/>
   </editor>
  </MODULE>
@@ -51,15 +51,6 @@
      <ITEM name="Watch Expression Column Width">82</ITEM>
      <ITEM name="nItems">0</ITEM>
     </PROPERTIES>
-   </POPUP>
-   <POPUP w="1384" x="2620" flags="00000001" y="326" h="883" pid="0" iid="17">
-    <PROPERTIES/>
-   </POPUP>
-   <POPUP w="695" x="2964" flags="00000000" y="692" h="459" pid="0" iid="21">
-    <PROPERTIES/>
-   </POPUP>
-   <POPUP w="1384" x="269" flags="00000000" y="75" h="883" pid="0" iid="3">
-    <PROPERTIES/>
    </POPUP>
   </PWI>
  </MODULE>
