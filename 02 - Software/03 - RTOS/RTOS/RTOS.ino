@@ -17,7 +17,7 @@ void loop() {
 void LED_Blink_13(void *pvParameters) {
   pinMode(13, OUTPUT);
 
-  for (;;) {
+  while(true) {
     digitalWrite(LED_BUILTIN, HIGH);
     vTaskDelay(pdMS_TO_TICKS(1000));
     digitalWrite(LED_BUILTIN, LOW);
@@ -28,7 +28,7 @@ void LED_Blink_13(void *pvParameters) {
 void LED_Blink_9(void *pvParameters) {
   pinMode(9, OUTPUT);
 
-  for (;;) {
+  while(true) {
     digitalWrite(9, HIGH);
     vTaskDelay(pdMS_TO_TICKS(500)); // Pisca mais rápido
     digitalWrite(9, LOW);
