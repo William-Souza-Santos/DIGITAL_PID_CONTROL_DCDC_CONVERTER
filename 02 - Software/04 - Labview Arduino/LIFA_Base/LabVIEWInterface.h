@@ -202,4 +202,3 @@ void finiteAcquisition(int analogPin, float acquisitionSpeed, int numberOfSample
 **  Output: None
 *********************************************************************************/
 void lcd_print(unsigned char command[]);
-
