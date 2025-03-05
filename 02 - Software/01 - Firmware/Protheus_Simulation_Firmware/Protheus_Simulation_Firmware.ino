@@ -35,8 +35,8 @@ void setup() {
   // Configura o Timer1 para gerar PWM de 40 kHz
   TCCR1A = (1 << COM1A1) | (1 << WGM11);
   TCCR1B = (1 << WGM13) | (1 << WGM12) | (1 << CS10);
-  ICR1 = 400;  // Frequência de 40 kHz (16 MHz / 400)
-  OCR1A = 380; // 95% de duty cycle (380/400)
+  ICR1 = 1600;  // Frequência de 40 kHz (16 MHz / 400)
+  OCR1A = 800; // 95% de duty cycle (380/400)
 
   lcd.begin(16,2);
   lcd.print("DC DC CONVERTER");
