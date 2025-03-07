@@ -36,7 +36,7 @@ void setup() {
   TCCR1A = (1 << COM1A1) | (1 << WGM11);
   TCCR1B = (1 << WGM13) | (1 << WGM12) | (1 << CS10);
   ICR1 = 1600;  // Frequência de 40 kHz (16 MHz / 400)
-  OCR1A = 1200; // 95% de duty cycle (380/400)
+  OCR1A = 48; // 95% de duty cycle (380/400)
 
   lcd.begin(16,2);
   lcd.print("DC DC CONVERTER");
