@@ -23,10 +23,10 @@
 */
 #include <LiquidCrystal.h>
 
-LiquidCrystal lcd(12,11,7,6,5,4);
-
+LiquidCrystal lcd(12, 11, 7, 6, 5, 4);
 
 const int pwmPin = 9; // Pino para o PWM
+float DUTY_CYCLE = 0;
 
 void setup() {
   pinMode(LED_BUILTIN, OUTPUT);
@@ -35,25 +35,27 @@ void setup() {
   // Configura o Timer1 para gerar PWM de 40 kHz
   TCCR1A = (1 << COM1A1) | (1 << WGM11);
   TCCR1B = (1 << WGM13) | (1 << WGM12) | (1 << CS10);
-  ICR1 = 1600;  // Frequência de 40 kHz (16 MHz / 400)
-  OCR1A = 48; // 95% de duty cycle (380/400)
+  ICR1 = 1600;  // Frequência de 40 kHz (16 MHz / 1600 = 10 kHz)
+  OCR1A = 800;  // 50% de duty cycle (800/1600)
 
-  lcd.begin(16,2);
+  DUTY_CYCLE = (int)(((float)OCR1A / ICR1) * 100); // Cálculo correto do duty cycle
+
+  lcd.begin(16, 2);
   lcd.print("DC DC CONVERTER");
-  lcd.setCursor(2,1);
+  lcd.setCursor(2, 1);
   lcd.print("BUCK BOOST");  
+  //delay(500); // Exibe a mensagem por 500 ms antes de limpar
+  lcd.clear();
 }
 
 void loop() {
-  
-  lcd.setCursor(12,1);
-
+  lcd.setCursor(0, 0);
+  lcd.print("DUTY CYCLE: ");
+  lcd.print(DUTY_CYCLE, 1); // Exibe com uma casa decimal
+  lcd.print("%  ");
   
   digitalWrite(LED_BUILTIN, HIGH);
   delay(1);
   digitalWrite(LED_BUILTIN, LOW);
   delay(1);
-
-  
-  
 }
