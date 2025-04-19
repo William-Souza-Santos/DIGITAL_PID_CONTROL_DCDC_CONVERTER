@@ -44,7 +44,7 @@ void setup() {
   TCNT1 = 0;
 
   ICR1 = 1600; // TOP = 1600 → 16MHz / 1600 = 10kHz
-  OCR1A = 1200; // 50% de duty cycle
+  OCR1A = 1000; // 50% de duty cycle
 
  DUTY_CYCLE = (int)(((float)OCR1A / ICR1) * 100); // Cálculo correto do duty cycle
 

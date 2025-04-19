@@ -1,0 +1,62 @@
+/ProjectRoot
+│
+├── /src                                # Códigos-fonte (.c)
+│   ├── /bsp                            # Basic Software - drivers específicos de hardware
+│   │   ├── gpio.c                      # Implementação do controle de pinos (entrada/saída digital)
+│   │   ├── adc.c                       # Implementação da leitura do conversor analógico-digital
+│   │   ├── pwm.c                       # Implementação da geração de sinal PWM
+│   │   ├── timer.c                     # Implementação dos temporizadores
+│   │   └── uart.c                      # Implementação da comunicação serial UART
+│   │
+│   ├── /mcal                           # Microcontroller Abstraction Layer
+│   │   └── reg_access.c               # Funções de acesso direto a registradores específicos do microcontrolador
+│   │
+│   ├── /services                       # Serviços auxiliares e reutilizáveis
+│   │   ├── debounce.c                  # Implementação de filtro de debounce para botões
+│   │   └── filters.c                   # Implementação de filtros digitais simples
+│   │
+│   ├── /app                            # Application Software (lógica de aplicação)
+│   │   ├── app_main.c                  # Função principal da aplicação (loop de controle, FSM)
+│   │   ├── /control
+│   │   │   └── pid.c                   # Implementação de um controlador PID
+│   │   └── /logic
+│   │       └── variable_handler.c      # Manipulação de variáveis e lógica de decisão
+│   │
+│   └── main.c                          # Inicialização do sistema e chamada da aplicação principal
+│
+├── /include                            # Arquivos de cabeçalho (.h)
+│   ├── /bsp
+│   │   ├── gpio.h                      # Declarações de funções de controle de pinos
+│   │   ├── adc.h                       # Declarações de funções de leitura ADC
+│   │   ├── pwm.h                       # Declarações de funções de controle PWM
+│   │   ├── timer.h                     # Declarações de temporizadores
+│   │   └── uart.h                      # Declarações da comunicação UART
+│   │
+│   ├── /mcal
+│   │   ├── reg_access.h                # Interface de acesso a registradores
+│   │   ├── xc_config.h                 # Configurações de fuses (via #pragma)
+│   │   └── pic_header.inc              # Inclusões específicas do microcontrolador (assembly ou macros)
+│   │
+│   ├── /services
+│   │   ├── debounce.h                  # Declarações do módulo debounce
+│   │   └── filters.h                   # Declarações dos filtros digitais
+│   │
+│   ├── /app
+│   │   ├── app_main.h                  # Declarações da aplicação principal
+│   │   ├── /control
+│   │   │   └── pid.h                   # Declarações do controlador PID
+│   │   └── /logic
+│   │       └── variable_handler.h      # Declarações de funções de lógica de variáveis
+│   │
+│   └── /config                         # Configurações do sistema e da aplicação
+│       ├── app_config.h                # Definições e constantes da aplicação
+│       └── pin_config.h                # Mapeamento de pinos e configurações específicas
+│
+├── /rtos                               # (opcional) Sistema operacional de tempo real
+│   ├── src
+│   │   └── os_tasks.c                  # Implementação das tarefas do RTOS
+│   └── include
+│       └── os_config.h                 # Configurações do scheduler e prioridades
+│
+├── README.md                           # Descrição geral do projeto
+└── Makefile / project.mcp              # Arquivo de build ou projeto do MPLAB

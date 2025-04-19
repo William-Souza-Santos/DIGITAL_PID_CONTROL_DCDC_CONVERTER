@@ -1,0 +1,32 @@
+(kicad_sch (version 20211123) (generator eeschema)
+
+  (uuid 4ea1f384-c862-43ec-92d4-f7c9e466db45)
+
+  (paper "A4")
+
+  (lib_symbols
+  )
+
+
+  (text "Final Year Project By Electronic Engineering - IFSP (Institute Federal of São Paulo)"
+    (at 177.8 175.26 0)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (uuid 03b6b7a0-7863-4646-873a-5f132b837e6e)
+  )
+  (text "19.04.25" (at 207.01 194.31 0)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (uuid 24c8a22b-daf2-4ebb-9523-0dc78b754e09)
+  )
+  (text "BIDIRECTIONAL DC DC CONVERTER " (at 187.96 190.5 0)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (uuid 8415cb2f-b7fb-4681-ac11-a726d30d752a)
+  )
+  (text "01" (at 267.97 194.31 0)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (uuid 9513162b-9be3-4d47-803c-13f29fa89aa4)
+  )
+
+  (sheet_instances
+    (path "/" (page "1"))
+  )
+)
