@@ -1,0 +1,8 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "Library")(type "KiCad")(uri "C:/Users/55119/Downloads/KF301-2P/Library.pretty")(options "")(descr ""))
+  (lib (name "LCD-16X2")(type "KiCad")(uri "C:/Users/55119/Downloads/LCD-16X2.pretty")(options "")(descr ""))
+  (lib (name "LT1083")(type "KiCad")(uri "C:/Users/55119/Downloads/LT1083.pretty")(options "")(descr ""))
+  (lib (name "ul_LT1083CP-PBF")(type "KiCad")(uri "C:/Users/55119/Downloads/ul_LT1083CP-PBF.pretty")(options "")(descr ""))
+  (lib (name "USBR-B-S-S-O-TH")(type "KiCad")(uri "C:/Users/55119/Downloads/USBR-B-S-S-O-TH.pretty")(options "")(descr ""))
+)

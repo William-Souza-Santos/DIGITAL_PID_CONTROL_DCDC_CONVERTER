@@ -1,0 +1,5280 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "3460f89c-a212-4e95-a243-4bf1913a865e")
+	(paper "A4")
+	(title_block
+		(title "BIDIRECTIONAL DC DC CONVERTER")
+	)
+	(lib_symbols
+		(symbol "Device:C"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.254)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "C"
+				(at 0.635 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "C"
+				(at 0.635 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at 0.9652 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Unpolarized capacitor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "cap capacitor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "C_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "C_0_1"
+				(polyline
+					(pts
+						(xy -2.032 0.762) (xy 2.032 0.762)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.032 -0.762) (xy 2.032 -0.762)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "C_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 2.794)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 2.794)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Device:L"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "L"
+				(at -1.27 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "L"
+				(at 1.905 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Inductor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "inductor choke coil reactor magnetic"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Choke_* *Coil* Inductor_* L_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "L_0_1"
+				(arc
+					(start 0 2.54)
+					(mid 0.6323 1.905)
+					(end 0 1.27)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 0 1.27)
+					(mid 0.6323 0.635)
+					(end 0 0)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 0 0)
+					(mid 0.6323 -0.635)
+					(end 0 -1.27)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 0 -1.27)
+					(mid 0.6323 -1.905)
+					(end 0 -2.54)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "L_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 1.27)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 1.27)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Device:R"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "R"
+				(at 2.032 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "R"
+				(at 0 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at -1.778 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Resistor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "R res resistor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "R_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "R_0_1"
+				(rectangle
+					(start -1.016 -2.54)
+					(end 1.016 2.54)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "R_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Diode:1N4004"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "D"
+				(at 0 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "1N4004"
+				(at 0 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal"
+				(at 0 -4.445 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "http://www.vishay.com/docs/88503/1n4001.pdf"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "400V 1A General Purpose Rectifier Diode, DO-41"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Sim.Device" "D"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Sim.Pins" "1=K 2=A"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "diode"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "D*DO?41*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "1N4004_0_1"
+				(polyline
+					(pts
+						(xy -1.27 1.27) (xy -1.27 -1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 1.27) (xy 1.27 -1.27) (xy -1.27 0) (xy 1.27 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 0) (xy -1.27 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "1N4004_1_1"
+				(pin passive line
+					(at -3.81 0 0)
+					(length 2.54)
+					(name "K"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 0 180)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "IR2104_2"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U6"
+				(at -0.508 3.556 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "IR2104"
+				(at -2.032 1.016 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(italic yes)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.infineon.com/dgdl/ir2104.pdf?fileId=5546d462533600a4015355c7c1c31671"
+				(at 1.016 31.242 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Half-Bridge Driver, 600V, 210/360mA, PDIP-8/SOIC-8"
+				(at 1.27 24.13 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "Gate Driver"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "SOIC*3.9x4.9mm*P1.27mm* DIP*W7.62mm*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "IR2104_2_0_1"
+				(rectangle
+					(start -6.35 0)
+					(end 8.89 -12.7)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+			)
+			(symbol "IR2104_2_1_1"
+				(pin power_in line
+					(at -8.89 -2.54 0)
+					(length 2.54)
+					(name "VCC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -8.89 -5.08 0)
+					(length 2.54)
+					(name "IN"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -8.89 -7.62 0)
+					(length 2.54)
+					(name "~{SD}"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -8.89 -10.16 0)
+					(length 2.54)
+					(name "COM"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 11.43 -2.54 180)
+					(length 2.54)
+					(name "VB"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 11.43 -5.08 180)
+					(length 2.54)
+					(name "HO"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 11.43 -7.62 180)
+					(length 2.54)
+					(name "VS"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 11.43 -10.16 180)
+					(length 2.54)
+					(name "LO"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Transistor_BJT:BC547"
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "Q"
+				(at 5.08 1.905 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "BC547"
+				(at 5.08 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "Package_TO_SOT_THT:TO-92_Inline"
+				(at 5.08 -1.905 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(italic yes)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.onsemi.com/pub/Collateral/BC550-D.pdf"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Description" "0.1A Ic, 45V Vce, Small Signal NPN Transistor, TO-92"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "NPN Transistor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "TO?92*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "BC547_0_1"
+				(polyline
+					(pts
+						(xy -2.54 0) (xy 0.635 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.635 1.905) (xy 0.635 -1.905)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 1.27 0)
+					(radius 2.8194)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "BC547_1_1"
+				(polyline
+					(pts
+						(xy 0.635 0.635) (xy 2.54 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.635 -0.635) (xy 2.54 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -1.778) (xy 1.778 -1.27) (xy 2.286 -2.286) (xy 1.27 -1.778)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(pin input line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "B"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 5.08 270)
+					(length 2.54)
+					(name "C"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 -5.08 90)
+					(length 2.54)
+					(name "E"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Transistor_FET:IRLZ44N"
+			(pin_names
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "Q"
+				(at 5.08 1.905 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "IRLZ44N"
+				(at 5.08 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "Package_TO_SOT_THT:TO-220-3_Vertical"
+				(at 5.08 -1.905 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(italic yes)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "http://www.irf.com/product-info/datasheets/data/irlz44n.pdf"
+				(at 5.08 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Description" "47A Id, 55V Vds, 22mOhm Rds Single N-Channel HEXFET Power MOSFET, TO-220AB"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "N-Channel HEXFET MOSFET Logic-Level"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "TO?220*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "IRLZ44N_0_1"
+				(polyline
+					(pts
+						(xy 0.254 1.905) (xy 0.254 -1.905)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.254 0) (xy -2.54 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 2.286) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 0.508) (xy 0.762 -0.508)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 -1.27) (xy 0.762 -2.286)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 -1.778) (xy 3.302 -1.778) (xy 3.302 1.778) (xy 0.762 1.778)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.016 0) (xy 2.032 0.381) (xy 2.032 -0.381) (xy 1.016 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(circle
+					(center 1.651 0)
+					(radius 2.794)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 2.54) (xy 2.54 1.778)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.54 1.778)
+					(radius 0.254)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(circle
+					(center 2.54 -1.778)
+					(radius 0.254)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 -2.54) (xy 2.54 0) (xy 0.762 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.794 0.508) (xy 2.921 0.381) (xy 3.683 0.381) (xy 3.81 0.254)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.302 0.381) (xy 2.921 -0.254) (xy 3.683 -0.254) (xy 3.302 0.381)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "IRLZ44N_1_1"
+				(pin input line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "G"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 5.08 270)
+					(length 2.54)
+					(name "D"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 -5.08 90)
+					(length 2.54)
+					(name "S"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+	)
+	(text "BIDIRECTIONAL DC DC CONVERTER"
+		(exclude_from_sim no)
+		(at 104.648 19.558 0)
+		(effects
+			(font
+				(size 3.5 3.5)
+				(thickness 0.7)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+		(uuid "3775197f-5e01-453d-9154-1bd6b2f6414b")
+	)
+	(text "RELAYS"
+		(exclude_from_sim no)
+		(at 90.932 114.046 0)
+		(effects
+			(font
+				(size 3.5 3.5)
+				(thickness 0.7)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+		(uuid "3a2cd6b7-f539-4fb6-affb-927585b24776")
+	)
+	(text "GATE DRIVERS\n"
+		(exclude_from_sim no)
+		(at 212.598 29.972 0)
+		(effects
+			(font
+				(size 3.5 3.5)
+				(thickness 0.7)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+		(uuid "689fd66e-c4d0-422c-b5b1-63885b97e047")
+	)
+	(text "SWITCHERS"
+		(exclude_from_sim no)
+		(at 85.09 32.766 0)
+		(effects
+			(font
+				(size 3.5 3.5)
+				(thickness 0.7)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+		(uuid "dd70b692-523e-46ad-81db-d6869d8717c9")
+	)
+	(junction
+		(at 130.81 88.9)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0ae2092f-42a1-4bf2-840f-206310cbde4c")
+	)
+	(junction
+		(at 67.31 64.77)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "12b6cdaf-f774-40d2-a8f4-576ebcb57e7c")
+	)
+	(junction
+		(at 265.43 62.23)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "15c0e02b-369f-4fcb-89dc-b67f6a18800d")
+	)
+	(junction
+		(at 243.84 111.76)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1d31e092-a480-4c24-b93e-af4308e20e82")
+	)
+	(junction
+		(at 130.81 64.77)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2cd524ca-5d07-4f90-bae1-e127b1f85ad8")
+	)
+	(junction
+		(at 67.31 88.9)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2d637c65-fb39-4c53-966e-9fec20d486b6")
+	)
+	(junction
+		(at 43.18 43.18)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "32213c81-0d50-45e3-b5a3-9210f5c93351")
+	)
+	(junction
+		(at 149.86 88.9)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "363e8abd-a807-403d-a129-f8db9355f2ae")
+	)
+	(junction
+		(at 237.49 95.25)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "595e3f8e-55ae-4ef2-b274-02718815b7c6")
+	)
+	(junction
+		(at 43.18 88.9)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6beb77e8-d12b-4084-961c-5d51935dc4a2")
+	)
+	(junction
+		(at 149.86 41.91)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7075b3e9-f5ad-4020-80a2-1ece4606daa1")
+	)
+	(junction
+		(at 209.55 95.25)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7437a74b-bce8-4491-a4f9-a21d3a0926c1")
+	)
+	(junction
+		(at 237.49 45.72)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8bdf8fb3-70fe-4a84-9dd7-5d5fdc4d5090")
+	)
+	(junction
+		(at 209.55 45.72)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8c295cd2-8244-488b-bb55-7df9ebda5990")
+	)
+	(junction
+		(at 209.55 106.68)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9c1a66ba-43f2-4803-b55a-ff18de52a44c")
+	)
+	(junction
+		(at 265.43 111.76)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9c847a93-485e-4254-a1bc-32b078f8693b")
+	)
+	(junction
+		(at 232.41 143.51)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a15180b0-8fe3-467f-8a0a-525f2b8e1e4a")
+	)
+	(junction
+		(at 209.55 57.15)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b00c71c2-a701-4260-9386-dcbccfa8392d")
+	)
+	(junction
+		(at 243.84 62.23)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ee2af745-addd-40db-a350-ed6dcdba8c67")
+	)
+	(wire
+		(pts
+			(xy 233.68 57.15) (xy 237.49 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "01853f4c-dc95-4e38-aaa2-e858c0755499")
+	)
+	(wire
+		(pts
+			(xy 232.41 142.24) (xy 232.41 143.51)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "03aee0d1-ad74-40b9-81d4-328992bab541")
+	)
+	(wire
+		(pts
+			(xy 209.55 95.25) (xy 219.71 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "09aa1812-3f6d-41cd-b93c-f2e916427e55")
+	)
+	(wire
+		(pts
+			(xy 209.55 114.3) (xy 209.55 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "09dffcda-aa17-4def-ad93-f3263c352e87")
+	)
+	(polyline
+		(pts
+			(xy 17.78 101.6) (xy 17.78 24.13)
+		)
+		(stroke
+			(width 0)
+			(type dash)
+		)
+		(uuid "0b284a8d-758d-4b74-8b0c-e9295a6a27e9")
+	)
+	(wire
+		(pts
+			(xy 67.31 64.77) (xy 67.31 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0b2c98e9-3292-4958-a25b-d1cce9ce296b")
+	)
+	(polyline
+		(pts
+			(xy 17.78 106.68) (xy 185.42 106.68)
+		)
+		(stroke
+			(width 0)
+			(type dash)
+		)
+		(uuid "0b83d85c-cea9-4b0c-843b-ae797d4eaba6")
+	)
+	(wire
+		(pts
+			(xy 232.41 143.51) (xy 243.84 143.51)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0ce0798f-caf1-4365-a655-6514aab11ea7")
+	)
+	(wire
+		(pts
+			(xy 43.18 68.58) (xy 43.18 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "112a8719-a5d4-429a-bdcc-623fd1d0c87c")
+	)
+	(wire
+		(pts
+			(xy 265.43 125.73) (xy 265.43 128.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "17d57ab4-63be-4078-aed5-49f8e8046aec")
+	)
+	(wire
+		(pts
+			(xy 240.03 50.8) (xy 248.92 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1932d41f-c2c1-4503-8295-4b0703483908")
+	)
+	(wire
+		(pts
+			(xy 243.84 109.22) (xy 243.84 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "195d8972-c8ec-4524-8f93-b2c18591be29")
+	)
+	(wire
+		(pts
+			(xy 149.86 88.9) (xy 130.81 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1997b9bb-8575-49de-8f62-69164ee6a030")
+	)
+	(wire
+		(pts
+			(xy 243.84 101.6) (xy 243.84 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "21da7185-e756-47a2-882e-961eb8eb159e")
+	)
+	(wire
+		(pts
+			(xy 130.81 64.77) (xy 130.81 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "22bfc304-3856-401f-972a-5679c44ada74")
+	)
+	(wire
+		(pts
+			(xy 240.03 71.12) (xy 240.03 64.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "23592370-10a3-453f-bd66-3f1e085e60f3")
+	)
+	(polyline
+		(pts
+			(xy 17.78 193.04) (xy 173.99 193.04)
+		)
+		(stroke
+			(width 0)
+			(type dash)
+		)
+		(uuid "257a8366-6704-49d5-b7a3-6e9e300658c8")
+	)
+	(wire
+		(pts
+			(xy 205.74 59.69) (xy 213.36 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2d4d440f-18d8-40b6-a120-20de4f15f6bd")
+	)
+	(wire
+		(pts
+			(xy 213.36 64.77) (xy 209.55 64.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3009bb65-44e1-4ab9-8db7-99319a517181")
+	)
+	(wire
+		(pts
+			(xy 256.54 100.33) (xy 257.81 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "37535365-0684-433a-be07-85cb98f7b460")
+	)
+	(wire
+		(pts
+			(xy 265.43 111.76) (xy 265.43 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3773d2a8-498e-42ac-96f2-d98a4f8391ea")
+	)
+	(wire
+		(pts
+			(xy 200.66 45.72) (xy 209.55 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "390c7871-ca29-46c3-832d-bfe92bf7f7a3")
+	)
+	(polyline
+		(pts
+			(xy 17.78 101.6) (xy 185.42 101.6)
+		)
+		(stroke
+			(width 0)
+			(type dash)
+		)
+		(uuid "3bac87a1-6c2f-40c5-bed4-4dc47cad9511")
+	)
+	(wire
+		(pts
+			(xy 248.92 71.12) (xy 240.03 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3c7f0021-cba6-4cff-8713-357c6feb1b3a")
+	)
+	(wire
+		(pts
+			(xy 243.84 111.76) (xy 233.68 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3ca8150e-9233-4800-acab-40d0b2927dc4")
+	)
+	(wire
+		(pts
+			(xy 213.36 111.76) (xy 209.55 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3e58a3e4-4f1a-4225-96a9-58db834a01b6")
+	)
+	(wire
+		(pts
+			(xy 243.84 52.07) (xy 243.84 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "43131dc0-be0d-477d-a96d-7121f2707e04")
+	)
+	(wire
+		(pts
+			(xy 237.49 45.72) (xy 227.33 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4492c396-6203-49c0-afa4-9cec1eff0d17")
+	)
+	(wire
+		(pts
+			(xy 256.54 71.12) (xy 257.81 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4777220a-a401-4c4e-bb6b-0f45b736ab67")
+	)
+	(wire
+		(pts
+			(xy 265.43 40.64) (xy 264.16 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4d30ba9b-74d3-4521-b838-66ecc5e7a21b")
+	)
+	(wire
+		(pts
+			(xy 240.03 59.69) (xy 240.03 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4f5e9d42-ca43-4e90-9375-7bb820312e90")
+	)
+	(wire
+		(pts
+			(xy 130.81 81.28) (xy 130.81 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "52d8fea4-d2a6-4632-b2eb-92e70118184a")
+	)
+	(polyline
+		(pts
+			(xy 279.4 161.29) (xy 279.4 24.13)
+		)
+		(stroke
+			(width 0)
+			(type dash)
+		)
+		(uuid "5749016c-856a-48f8-817f-42c5f27052bf")
+	)
+	(wire
+		(pts
+			(xy 43.18 43.18) (xy 67.31 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "58e0d007-fc57-405f-8c4f-329ad7c3f639")
+	)
+	(wire
+		(pts
+			(xy 232.41 143.51) (xy 232.41 144.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5bf583b0-aec0-4c80-b628-70e348c4889c")
+	)
+	(wire
+		(pts
+			(xy 233.68 59.69) (xy 240.03 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "63830466-0589-4aa3-a4ce-acb64bcab9f1")
+	)
+	(wire
+		(pts
+			(xy 149.86 41.91) (xy 173.99 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "68a08e91-6ba0-43ef-a0e6-4ca4951847e5")
+	)
+	(polyline
+		(pts
+			(xy 17.78 24.13) (xy 185.42 24.13)
+		)
+		(stroke
+			(width 0)
+			(type dash)
+		)
+		(uuid "6fd9f46a-575a-4773-bf6a-3a217c1a4b6d")
+	)
+	(polyline
+		(pts
+			(xy 185.42 161.29) (xy 185.42 106.68)
+		)
+		(stroke
+			(width 0)
+			(type dash)
+		)
+		(uuid "716af73b-cf93-437d-bd62-1f88b81798f2")
+	)
+	(wire
+		(pts
+			(xy 200.66 68.58) (xy 209.55 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7229d9d8-353b-4235-abd2-2e9b2127444a")
+	)
+	(wire
+		(pts
+			(xy 130.81 88.9) (xy 67.31 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "72d78e7d-ed0a-497b-bd83-9b5b029c7f42")
+	)
+	(wire
+		(pts
+			(xy 265.43 78.74) (xy 260.35 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "756f2a35-bcb8-4c99-b7d7-db21a293d1b7")
+	)
+	(wire
+		(pts
+			(xy 173.99 60.96) (xy 173.99 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "75d17cbc-3b8b-4a14-956b-2d27ec0ca1f6")
+	)
+	(wire
+		(pts
+			(xy 243.84 95.25) (xy 237.49 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "767eda85-08df-4ee6-bf6f-ac042896e363")
+	)
+	(wire
+		(pts
+			(xy 237.49 95.25) (xy 227.33 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "77733d3b-8898-4820-8b22-de2f5c84acc2")
+	)
+	(wire
+		(pts
+			(xy 243.84 59.69) (xy 243.84 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7868cf29-7908-4824-b81b-205ac54997bf")
+	)
+	(wire
+		(pts
+			(xy 213.36 106.68) (xy 209.55 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "79bcbc12-1d3c-4997-bae1-12c433660d9a")
+	)
+	(wire
+		(pts
+			(xy 209.55 64.77) (xy 209.55 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7ad2c8b8-0034-4b54-8ed5-966958345d92")
+	)
+	(wire
+		(pts
+			(xy 243.84 62.23) (xy 265.43 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7b6ec40c-c7ec-4e48-99f7-785158c92c5a")
+	)
+	(wire
+		(pts
+			(xy 200.66 118.11) (xy 209.55 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7c142e53-027a-44c7-ac7a-714b62b5c076")
+	)
+	(wire
+		(pts
+			(xy 209.55 111.76) (xy 209.55 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7dab9236-3d64-445c-a2a0-e73be9d324db")
+	)
+	(wire
+		(pts
+			(xy 67.31 88.9) (xy 67.31 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7fc1b66b-ac68-40f4-bc9b-c25ba84711d2")
+	)
+	(wire
+		(pts
+			(xy 218.44 149.86) (xy 224.79 149.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "82823b2a-2e55-4ab7-83fd-a425b41f0f23")
+	)
+	(wire
+		(pts
+			(xy 265.43 90.17) (xy 264.16 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8299945d-5a09-46b4-b8fd-6fd016fafeba")
+	)
+	(wire
+		(pts
+			(xy 240.03 114.3) (xy 233.68 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "86bbe425-cb5b-4163-addb-7f9f48356c36")
+	)
+	(wire
+		(pts
+			(xy 67.31 64.77) (xy 93.98 64.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "891bdb83-a300-44c4-bd2f-f7102e55265a")
+	)
+	(wire
+		(pts
+			(xy 265.43 128.27) (xy 260.35 128.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8dbd0f3e-52d0-4e10-a201-0dad700c7d15")
+	)
+	(wire
+		(pts
+			(xy 130.81 41.91) (xy 149.86 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8f457662-86d9-452d-b6a2-a5e048b716ed")
+	)
+	(wire
+		(pts
+			(xy 243.84 62.23) (xy 233.68 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9094ba11-5bdb-43c6-bda1-d95327ee658e")
+	)
+	(wire
+		(pts
+			(xy 240.03 64.77) (xy 233.68 64.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "91e56b44-eaa7-4cf4-8137-f8dea04401c2")
+	)
+	(wire
+		(pts
+			(xy 209.55 106.68) (xy 209.55 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "94ae5fc7-cbf4-4445-9285-c0d7d63e77be")
+	)
+	(wire
+		(pts
+			(xy 130.81 41.91) (xy 130.81 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "95f342c7-483e-478e-b93e-25539c8fdebf")
+	)
+	(wire
+		(pts
+			(xy 67.31 59.69) (xy 67.31 64.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "96d0ca8e-9f9d-49dc-af4b-10e854aabf9a")
+	)
+	(wire
+		(pts
+			(xy 243.84 111.76) (xy 265.43 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9ad402d8-bdef-44aa-911a-87ceb5362dd0")
+	)
+	(wire
+		(pts
+			(xy 101.6 64.77) (xy 130.81 64.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9c68b342-507e-4330-a247-1f13f81f00da")
+	)
+	(wire
+		(pts
+			(xy 248.92 120.65) (xy 240.03 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9e93f5e2-d5ae-43f9-b206-af8a370c03d1")
+	)
+	(wire
+		(pts
+			(xy 265.43 95.25) (xy 265.43 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9f8a482f-6e78-4d9d-80b1-4e3a7ae08dbb")
+	)
+	(polyline
+		(pts
+			(xy 187.96 24.13) (xy 279.4 24.13)
+		)
+		(stroke
+			(width 0)
+			(type dash)
+		)
+		(uuid "9faed26d-3bb5-48c3-879f-a6ff9c273ddf")
+	)
+	(wire
+		(pts
+			(xy 149.86 60.96) (xy 149.86 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a1f2cec0-c7d5-4a6e-8b37-a9297f66dccf")
+	)
+	(polyline
+		(pts
+			(xy 17.78 193.04) (xy 17.78 106.68)
+		)
+		(stroke
+			(width 0)
+			(type dash)
+		)
+		(uuid "a40c59cf-7f2a-4e23-aca7-9608574c1b2c")
+	)
+	(wire
+		(pts
+			(xy 173.99 68.58) (xy 173.99 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a4d49db7-a81e-4434-bacd-ccdc0ce32d6e")
+	)
+	(wire
+		(pts
+			(xy 213.36 114.3) (xy 209.55 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a5155479-5b1e-47ff-bf24-05891439f643")
+	)
+	(wire
+		(pts
+			(xy 265.43 111.76) (xy 271.78 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a571e10d-86d3-4790-b5cb-169b451efc4f")
+	)
+	(wire
+		(pts
+			(xy 240.03 109.22) (xy 240.03 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a5b9a1d8-5511-4f72-9cea-4c0ed11738be")
+	)
+	(polyline
+		(pts
+			(xy 173.99 161.29) (xy 185.42 161.29)
+		)
+		(stroke
+			(width 0)
+			(type dash)
+		)
+		(uuid "a7fd7551-12f0-4425-b31c-da2b7abadf6c")
+	)
+	(wire
+		(pts
+			(xy 213.36 62.23) (xy 209.55 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a86b436f-c09e-4ca2-9cbc-f961395adde7")
+	)
+	(wire
+		(pts
+			(xy 43.18 60.96) (xy 43.18 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a9406a1e-1dd9-4d6e-8ed8-29d02ed70e55")
+	)
+	(wire
+		(pts
+			(xy 265.43 62.23) (xy 265.43 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a98caa70-7cc0-40c1-a6c7-958a34aad66a")
+	)
+	(wire
+		(pts
+			(xy 240.03 100.33) (xy 248.92 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a9b148aa-7892-4790-a07b-a6b5fb1176a1")
+	)
+	(polyline
+		(pts
+			(xy 187.96 161.29) (xy 279.4 161.29)
+		)
+		(stroke
+			(width 0)
+			(type dash)
+		)
+		(uuid "ab518403-84fd-469c-b3e1-900457ffc173")
+	)
+	(wire
+		(pts
+			(xy 67.31 43.18) (xy 67.31 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ad71aac8-832b-4be1-aca7-44133ece9952")
+	)
+	(wire
+		(pts
+			(xy 220.98 132.08) (xy 232.41 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "add797e7-5cc2-453a-8c02-ea9786338767")
+	)
+	(polyline
+		(pts
+			(xy 187.96 161.29) (xy 187.96 24.13)
+		)
+		(stroke
+			(width 0)
+			(type dash)
+		)
+		(uuid "aeb45e76-e682-4d5f-b71d-ae186f89a652")
+	)
+	(wire
+		(pts
+			(xy 237.49 106.68) (xy 237.49 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b09c182b-12c7-4655-8f7e-ecace4f62f86")
+	)
+	(wire
+		(pts
+			(xy 256.54 50.8) (xy 257.81 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b2d29069-2d70-440c-ad3e-12fd4c164992")
+	)
+	(wire
+		(pts
+			(xy 232.41 158.75) (xy 220.98 158.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b2d6b072-d62e-4525-915c-e871783a1d41")
+	)
+	(wire
+		(pts
+			(xy 232.41 154.94) (xy 232.41 158.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b5b7b7cc-b4c1-495c-96c1-243b7f8f4767")
+	)
+	(wire
+		(pts
+			(xy 205.74 109.22) (xy 213.36 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b8e46aea-40c4-48e9-aa9e-15d13c6fe1de")
+	)
+	(wire
+		(pts
+			(xy 29.21 43.18) (xy 43.18 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bda6e540-7338-4af1-b66e-a3966da0b00c")
+	)
+	(wire
+		(pts
+			(xy 265.43 76.2) (xy 265.43 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c0a71bcb-445f-438a-9ed6-3d188ef3fb88")
+	)
+	(wire
+		(pts
+			(xy 265.43 55.88) (xy 265.43 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c2cf1bc8-cbf4-4b73-bd61-6ef10493fe0c")
+	)
+	(polyline
+		(pts
+			(xy 185.42 101.6) (xy 185.42 24.13)
+		)
+		(stroke
+			(width 0)
+			(type dash)
+		)
+		(uuid "c3b6f847-63a4-44ad-91bf-be30b7b00c89")
+	)
+	(wire
+		(pts
+			(xy 233.68 106.68) (xy 237.49 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ca60b69a-d017-4cdd-90e9-918ca6048782")
+	)
+	(wire
+		(pts
+			(xy 209.55 57.15) (xy 209.55 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cc70f45a-eb4d-4a9a-ab2e-749ed8106269")
+	)
+	(wire
+		(pts
+			(xy 213.36 57.15) (xy 209.55 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d11df0cf-e6d5-4958-a789-8799adf73cc5")
+	)
+	(wire
+		(pts
+			(xy 149.86 68.58) (xy 149.86 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d1eed94c-8473-4285-aa05-417118b52ef7")
+	)
+	(polyline
+		(pts
+			(xy 173.99 193.04) (xy 173.99 161.29)
+		)
+		(stroke
+			(width 0)
+			(type dash)
+		)
+		(uuid "d3b4ec0f-6def-45b7-a34d-8e097bf7c260")
+	)
+	(wire
+		(pts
+			(xy 173.99 88.9) (xy 149.86 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d72262fa-68d8-48a4-a91d-7c7daa9ebcf0")
+	)
+	(wire
+		(pts
+			(xy 265.43 62.23) (xy 273.05 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d8653d84-3fce-4f22-a938-d916c2c91f34")
+	)
+	(wire
+		(pts
+			(xy 265.43 105.41) (xy 265.43 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d9c312d4-ea49-4329-8c45-47326906e61e")
+	)
+	(wire
+		(pts
+			(xy 200.66 95.25) (xy 209.55 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e034bf94-3d3d-447b-84b4-8558a09dad3e")
+	)
+	(wire
+		(pts
+			(xy 43.18 88.9) (xy 67.31 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e240034c-f694-463c-ac24-2e78e257cac9")
+	)
+	(wire
+		(pts
+			(xy 240.03 120.65) (xy 240.03 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e4ae3cb7-593d-4856-9804-b68d4c6473f4")
+	)
+	(wire
+		(pts
+			(xy 233.68 109.22) (xy 240.03 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e5295f93-d452-40aa-b6af-8da298cfba5e")
+	)
+	(wire
+		(pts
+			(xy 265.43 45.72) (xy 265.43 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e924378f-08c6-4aa8-b204-fed0236b8c27")
+	)
+	(wire
+		(pts
+			(xy 209.55 62.23) (xy 209.55 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "eb379b7d-3c94-4bf4-b94c-318c9106f21e")
+	)
+	(wire
+		(pts
+			(xy 256.54 120.65) (xy 257.81 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ecf46f45-3f59-4fd3-b330-f245faf2d621")
+	)
+	(wire
+		(pts
+			(xy 232.41 132.08) (xy 232.41 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "efb7401d-b08c-4310-a197-23b836a1ddcc")
+	)
+	(wire
+		(pts
+			(xy 237.49 57.15) (xy 237.49 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "effe5406-6e1d-4491-bd6b-462e37fffd5e")
+	)
+	(wire
+		(pts
+			(xy 209.55 45.72) (xy 219.71 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f2a4ad60-4cbc-4238-b16c-3cac9b3a65ef")
+	)
+	(wire
+		(pts
+			(xy 30.48 88.9) (xy 43.18 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f5d1ece9-e5de-4592-bf0c-6bbf8fa6f359")
+	)
+	(wire
+		(pts
+			(xy 130.81 58.42) (xy 130.81 64.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f918e6dc-be7e-4e13-8a14-e68862916cd8")
+	)
+	(wire
+		(pts
+			(xy 243.84 45.72) (xy 237.49 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fe5ccfcc-5646-48c0-83f7-52517bde92bf")
+	)
+	(global_label "SWITCH_1"
+		(shape input)
+		(at 205.74 59.69 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "12f89219-50af-4d04-9aa4-1cfa40cea643")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 193.7439 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "GND"
+		(shape input)
+		(at 260.35 128.27 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "151c6945-c3de-40dc-b59d-7ac569824c87")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 253.4943 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "17V"
+		(shape input)
+		(at 200.66 95.25 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "1c6137c8-1bb9-41e1-8607-76447199b396")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 194.1672 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "GND"
+		(shape input)
+		(at 30.48 88.9 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "320a44fc-848b-4e98-bbe3-43848292ec7e")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 23.6243 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "SWITCH_2"
+		(shape input)
+		(at 205.74 109.22 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "38001d8f-1fad-499d-856c-f93707deadb1")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 193.7439 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "GND"
+		(shape input)
+		(at 200.66 118.11 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "41327a96-e982-49eb-8557-4a8ecf86c9f5")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 193.8043 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "17V"
+		(shape input)
+		(at 264.16 40.64 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "5153317d-e6bd-4eec-a88e-36ac19ca05c7")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 257.6672 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "GND"
+		(shape input)
+		(at 260.35 78.74 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "54ecfbb2-b34e-492e-b5e1-d93857863491")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 253.4943 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "GND"
+		(shape input)
+		(at 200.66 68.58 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "9ca1d3a0-38ac-4a8c-887a-c2c906942e53")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 193.8043 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "17V"
+		(shape input)
+		(at 264.16 90.17 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "a483c876-c493-4b1e-ac25-57528068d47b")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 257.6672 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "1-D"
+		(shape output)
+		(at 243.84 143.51 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "a6e9d54b-dd96-4411-b858-ca909f784e25")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 250.8771 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "D"
+		(shape output)
+		(at 273.05 62.23 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "acb29828-6d7f-4cd3-af39-97c1590bd20e")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 277.3052 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "17V"
+		(shape input)
+		(at 200.66 45.72 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "b08751b8-decf-4509-be7d-2352f7dae18a")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 194.1672 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "D"
+		(shape input)
+		(at 218.44 149.86 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "b42ced0c-b177-4489-9ca3-fd5456cd4af4")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 214.1848 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "17V"
+		(shape input)
+		(at 29.21 43.18 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "cb79834b-ca36-4255-8c6d-c893966aca0a")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 22.7172 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "17V"
+		(shape input)
+		(at 220.98 132.08 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "d34ea31c-2c4d-4797-a0fd-da9cf0ebb812")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 214.4872 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "GND"
+		(shape input)
+		(at 220.98 158.75 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "d8c86c56-cc42-4296-b0e7-1ddd422276a5")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 214.1243 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "1-D"
+		(shape output)
+		(at 271.78 111.76 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "e41a8291-29c3-4a9a-8d9a-07afb7dd5c99")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 278.8171 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 149.86 64.77 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "02281897-33af-43e3-a368-2fc13ff0c1e0")
+		(property "Reference" "C13"
+			(at 153.67 63.4999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "C"
+			(at 153.67 66.0399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 150.8252 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 149.86 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 149.86 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "6664db7f-cae9-4b12-a1d8-dc8168734292")
+		)
+		(pin "1"
+			(uuid "3789198b-205e-48a4-aa7c-d821eabf5fd1")
+		)
+		(instances
+			(project ""
+				(path "/4ea1f384-c862-43ec-92d4-f7c9e466db45/4dcac36d-d733-4f9b-8697-e6fa98d58f64"
+					(reference "C13")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Transistor_FET:IRLZ44N")
+		(at 262.89 71.12 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0b5ce59b-9d59-4d88-8dff-1be5575b7553")
+		(property "Reference" "Q8"
+			(at 269.24 69.8499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "IRLZ44N"
+			(at 269.24 72.3899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_THT:TO-220-3_Vertical"
+			(at 267.97 73.025 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.irf.com/product-info/datasheets/data/irlz44n.pdf"
+			(at 267.97 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "47A Id, 55V Vds, 22mOhm Rds Single N-Channel HEXFET Power MOSFET, TO-220AB"
+			(at 262.89 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d5885c63-15d2-4459-897e-9c2c168e50e5")
+		)
+		(pin "2"
+			(uuid "4062f0fe-5af0-4404-91fd-9cb244efd2f9")
+		)
+		(pin "3"
+			(uuid "db67ecf5-8dbf-4f30-901d-c562fde3420a")
+		)
+		(instances
+			(project "DC_DC_CONVERTER"
+				(path "/4ea1f384-c862-43ec-92d4-f7c9e466db45/4dcac36d-d733-4f9b-8697-e6fa98d58f64"
+					(reference "Q8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:L")
+		(at 97.79 64.77 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "10dd959d-99f8-4b5c-89c8-b32c70fb29f6")
+		(property "Reference" "L1"
+			(at 97.79 59.69 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "L"
+			(at 97.79 62.23 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 97.79 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 97.79 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Inductor"
+			(at 97.79 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "76f16eac-7a47-41ae-8a37-b4d81cd21377")
+		)
+		(pin "2"
+			(uuid "582b803c-1190-4b96-a978-6f319ae909ea")
+		)
+		(instances
+			(project ""
+				(path "/4ea1f384-c862-43ec-92d4-f7c9e466db45/4dcac36d-d733-4f9b-8697-e6fa98d58f64"
+					(reference "L1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 243.84 55.88 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1772bd40-74d1-4d6f-a1c7-152ce30b8937")
+		(property "Reference" "C14"
+			(at 247.65 54.6099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "C"
+			(at 247.65 57.1499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 244.8052 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 243.84 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 243.84 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "97d17e03-55b2-44b7-8241-28182e713e9f")
+		)
+		(pin "2"
+			(uuid "447bfa0e-941a-4c52-8494-d1f7bb9c21cf")
+		)
+		(instances
+			(project ""
+				(path "/4ea1f384-c862-43ec-92d4-f7c9e466db45/4dcac36d-d733-4f9b-8697-e6fa98d58f64"
+					(reference "C14")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 252.73 50.8 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "20f97954-38b5-48a6-aedd-52156ef0ea7f")
+		(property "Reference" "R10"
+			(at 252.73 44.45 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "220"
+			(at 252.73 46.99 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 252.73 49.022 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 252.73 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 252.73 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "edc96946-b89d-4c24-8131-d2394ec3126e")
+		)
+		(pin "1"
+			(uuid "4b155633-bb44-48d7-b2b7-857afaca0ff9")
+		)
+		(instances
+			(project ""
+				(path "/4ea1f384-c862-43ec-92d4-f7c9e466db45/4dcac36d-d733-4f9b-8697-e6fa98d58f64"
+					(reference "R10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Transistor_FET:IRLZ44N")
+		(at 128.27 76.2 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2d0e8599-da65-41c1-bba2-056a7ddabc3b")
+		(property "Reference" "Q4"
+			(at 134.62 74.9299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "IRLZ44N"
+			(at 134.62 77.4699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_THT:TO-220-3_Vertical"
+			(at 133.35 78.105 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.irf.com/product-info/datasheets/data/irlz44n.pdf"
+			(at 133.35 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "47A Id, 55V Vds, 22mOhm Rds Single N-Channel HEXFET Power MOSFET, TO-220AB"
+			(at 128.27 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "42e62120-915f-47b2-b024-06371b238897")
+		)
+		(pin "2"
+			(uuid "c9a61db7-181d-406f-8124-3143415c9fba")
+		)
+		(pin "3"
+			(uuid "96123770-a2fd-4f0d-a12e-fc455eb77607")
+		)
+		(instances
+			(project ""
+				(path "/4ea1f384-c862-43ec-92d4-f7c9e466db45/4dcac36d-d733-4f9b-8697-e6fa98d58f64"
+					(reference "Q4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Transistor_FET:IRLZ44N")
+		(at 59.69 134.62 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3fae982e-20de-489f-a33c-f92b8c7b761f")
+		(property "Reference" "Q6"
+			(at 66.04 133.3499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "IRLZ44N"
+			(at 66.04 135.8899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_THT:TO-220-3_Vertical"
+			(at 64.77 136.525 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.irf.com/product-info/datasheets/data/irlz44n.pdf"
+			(at 64.77 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "47A Id, 55V Vds, 22mOhm Rds Single N-Channel HEXFET Power MOSFET, TO-220AB"
+			(at 59.69 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ad157b98-2bb8-4b20-9457-3265aea84449")
+		)
+		(pin "2"
+			(uuid "bf1415ce-c6ea-4523-8b30-73175ebce20d")
+		)
+		(pin "3"
+			(uuid "8c4221d4-2cad-42c6-9b8b-3f62a0ab7087")
+		)
+		(instances
+			(project "DC_DC_CONVERTER"
+				(path "/4ea1f384-c862-43ec-92d4-f7c9e466db45/4dcac36d-d733-4f9b-8697-e6fa98d58f64"
+					(reference "Q6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Transistor_FET:IRLZ44N")
+		(at 64.77 76.2 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4458b849-4248-4e5e-b4d6-53c467b78e29")
+		(property "Reference" "Q2"
+			(at 71.12 74.9299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "IRLZ44N"
+			(at 71.12 77.4699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_THT:TO-220-3_Vertical"
+			(at 69.85 78.105 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.irf.com/product-info/datasheets/data/irlz44n.pdf"
+			(at 69.85 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "47A Id, 55V Vds, 22mOhm Rds Single N-Channel HEXFET Power MOSFET, TO-220AB"
+			(at 64.77 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "40069f9c-d568-427d-bfdf-c5853072ddfc")
+		)
+		(pin "3"
+			(uuid "e53fd804-3449-4106-9a61-e96bb1816427")
+		)
+		(pin "1"
+			(uuid "bbdba816-13ad-4a5f-ae48-d3e6b733707c")
+		)
+		(instances
+			(project ""
+				(path "/4ea1f384-c862-43ec-92d4-f7c9e466db45/4dcac36d-d733-4f9b-8697-e6fa98d58f64"
+					(reference "Q2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 232.41 138.43 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "53937acb-0b3d-4cab-a638-6911c4f60453")
+		(property "Reference" "R14"
+			(at 234.95 137.1599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "47"
+			(at 234.95 139.6999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 230.632 138.43 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 232.41 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 232.41 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c17f3643-7ac3-4522-acd5-e447cd671e4f")
+		)
+		(pin "2"
+			(uuid "2822207d-17be-4c94-8593-ee83fc43d1e8")
+		)
+		(instances
+			(project ""
+				(path "/4ea1f384-c862-43ec-92d4-f7c9e466db45/4dcac36d-d733-4f9b-8697-e6fa98d58f64"
+					(reference "R14")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Transistor_FET:IRLZ44N")
+		(at 64.77 54.61 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "565d4420-b142-4116-926d-5e50b5602b22")
+		(property "Reference" "Q1"
+			(at 71.12 53.3399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "IRLZ44N"
+			(at 71.12 55.8799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_THT:TO-220-3_Vertical"
+			(at 69.85 56.515 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.irf.com/product-info/datasheets/data/irlz44n.pdf"
+			(at 69.85 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "47A Id, 55V Vds, 22mOhm Rds Single N-Channel HEXFET Power MOSFET, TO-220AB"
+			(at 64.77 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "3f95a59e-05d6-449d-b870-4ac7316ab588")
+		)
+		(pin "3"
+			(uuid "1352969f-0bb2-496a-9e42-0c969c9d809d")
+		)
+		(pin "1"
+			(uuid "1b26d893-107e-47cc-b4d3-45dbd647b01b")
+		)
+		(instances
+			(project ""
+				(path "/4ea1f384-c862-43ec-92d4-f7c9e466db45/4dcac36d-d733-4f9b-8697-e6fa98d58f64"
+					(reference "Q1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 43.18 64.77 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5b97b3fe-6ad9-4629-a7af-fd7fc27db632")
+		(property "Reference" "C12"
+			(at 46.99 63.4999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "C"
+			(at 46.99 66.0399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 44.1452 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 43.18 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 43.18 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "86e57b48-32d0-4be6-90a5-d95276b1752a")
+		)
+		(pin "2"
+			(uuid "e5114522-faa2-4b70-b543-026346f73ec0")
+		)
+		(instances
+			(project ""
+				(path "/4ea1f384-c862-43ec-92d4-f7c9e466db45/4dcac36d-d733-4f9b-8697-e6fa98d58f64"
+					(reference "C12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:1N4004")
+		(at 223.52 45.72 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5f4eb718-15dd-4f8b-83f6-744013a771ed")
+		(property "Reference" "D4"
+			(at 223.52 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1N4004"
+			(at 223.52 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal"
+			(at 223.52 41.275 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.vishay.com/docs/88503/1n4001.pdf"
+			(at 223.52 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "400V 1A General Purpose Rectifier Diode, DO-41"
+			(at 223.52 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 223.52 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 223.52 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "d9570bf8-7219-424c-b55c-ffaa3d22c3af")
+		)
+		(pin "1"
+			(uuid "fe2d6867-4f50-49a2-b0f7-48d185a6df1f")
+		)
+		(instances
+			(project ""
+				(path "/4ea1f384-c862-43ec-92d4-f7c9e466db45/4dcac36d-d733-4f9b-8697-e6fa98d58f64"
+					(reference "D4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 252.73 120.65 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "62420081-93eb-4c3c-8a17-c138f6b56e2f")
+		(property "Reference" "R13"
+			(at 252.73 114.3 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "220"
+			(at 252.73 116.84 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 252.73 118.872 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 252.73 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 252.73 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5695edc4-aebe-42f1-ad3c-4951eb63ff57")
+		)
+		(pin "2"
+			(uuid "8d3d93d9-4a58-4a84-8875-85280533782a")
+		)
+		(instances
+			(project "DC_DC_CONVERTER"
+				(path "/4ea1f384-c862-43ec-92d4-f7c9e466db45/4dcac36d-d733-4f9b-8697-e6fa98d58f64"
+					(reference "R13")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Transistor_FET:IRLZ44N")
+		(at 128.27 53.34 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6d8c06cd-4c4c-494f-9f5a-62b8bf9b5299")
+		(property "Reference" "Q3"
+			(at 134.62 52.0699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "IRLZ44N"
+			(at 134.62 54.6099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_THT:TO-220-3_Vertical"
+			(at 133.35 55.245 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.irf.com/product-info/datasheets/data/irlz44n.pdf"
+			(at 133.35 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "47A Id, 55V Vds, 22mOhm Rds Single N-Channel HEXFET Power MOSFET, TO-220AB"
+			(at 128.27 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d5e13c92-1e51-4f2c-aec0-6d623ee3c0a7")
+		)
+		(pin "2"
+			(uuid "de24dc1b-6804-4aed-8ec5-ef155b524d67")
+		)
+		(pin "3"
+			(uuid "f6ec4372-3085-494e-955e-505cedbc5ade")
+		)
+		(instances
+			(project ""
+				(path "/4ea1f384-c862-43ec-92d4-f7c9e466db45/4dcac36d-d733-4f9b-8697-e6fa98d58f64"
+					(reference "Q3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 252.73 100.33 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "734ea93a-3594-4eef-bf82-db144a232637")
+		(property "Reference" "R12"
+			(at 252.73 93.98 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "220"
+			(at 252.73 96.52 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 252.73 98.552 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 252.73 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 252.73 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "edf82914-c266-49dd-9fa1-6573e79b21da")
+		)
+		(pin "1"
+			(uuid "82cae067-e8e1-4558-a951-fd0f1010c6cd")
+		)
+		(instances
+			(project "DC_DC_CONVERTER"
+				(path "/4ea1f384-c862-43ec-92d4-f7c9e466db45/4dcac36d-d733-4f9b-8697-e6fa98d58f64"
+					(reference "R12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 252.73 71.12 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "75e277f3-7466-471e-bd58-070280aa9dde")
+		(property "Reference" "R11"
+			(at 252.73 64.77 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "220"
+			(at 252.73 67.31 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 252.73 69.342 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 252.73 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 252.73 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5a514ee4-f0e2-4e00-86de-b1439b3c0fcc")
+		)
+		(pin "2"
+			(uuid "2b9322f9-5a27-4054-a24a-baee7974fce3")
+		)
+		(instances
+			(project ""
+				(path "/4ea1f384-c862-43ec-92d4-f7c9e466db45/4dcac36d-d733-4f9b-8697-e6fa98d58f64"
+					(reference "R11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Transistor_BJT:BC547")
+		(at 81.28 158.75 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7cdc087a-bd5e-4bc4-84c4-f62b647fee5d")
+		(property "Reference" "Q11"
+			(at 86.36 157.4799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "BC547"
+			(at 86.36 160.0199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_THT:TO-92_Inline"
+			(at 86.36 160.655 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.onsemi.com/pub/Collateral/BC550-D.pdf"
+			(at 81.28 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "0.1A Ic, 45V Vce, Small Signal NPN Transistor, TO-92"
+			(at 81.28 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "a61a2cfc-7efa-4349-b493-33b1dab7ab33")
+		)
+		(pin "1"
+			(uuid "7b4d29d9-7128-4b77-85ca-bd54da5df3ac")
+		)
+		(pin "3"
+			(uuid "148f10e9-491b-40e1-b985-86df66689b58")
+		)
+		(instances
+			(project ""
+				(path "/4ea1f384-c862-43ec-92d4-f7c9e466db45/4dcac36d-d733-4f9b-8697-e6fa98d58f64"
+					(reference "Q11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Transistor_BJT:BC547")
+		(at 52.07 158.75 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "850dd7e3-4d0a-4f63-a5e5-4e2c5022bfd8")
+		(property "Reference" "Q10"
+			(at 57.15 157.4799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "BC547"
+			(at 57.15 160.0199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_THT:TO-92_Inline"
+			(at 57.15 160.655 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.onsemi.com/pub/Collateral/BC550-D.pdf"
+			(at 52.07 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "0.1A Ic, 45V Vce, Small Signal NPN Transistor, TO-92"
+			(at 52.07 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c01dd19c-ff55-439a-b377-f69f674a75cd")
+		)
+		(pin "2"
+			(uuid "c58d42c6-bcd8-4ea1-b52e-2fb17e004e05")
+		)
+		(pin "3"
+			(uuid "b2b08a4a-1002-4b62-9cb5-00521917af5c")
+		)
+		(instances
+			(project ""
+				(path "/4ea1f384-c862-43ec-92d4-f7c9e466db45/4dcac36d-d733-4f9b-8697-e6fa98d58f64"
+					(reference "Q10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 173.99 64.77 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "90373159-8224-4f43-923a-eb6c8ec10aaa")
+		(property "Reference" "R9"
+			(at 176.53 63.4999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "R"
+			(at 176.53 66.0399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 172.212 64.77 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 173.99 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 173.99 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2f758d38-32cd-49e9-a5a0-2c7ab5fbea35")
+		)
+		(pin "2"
+			(uuid "345926f8-c212-4d40-b032-e3fe39ce48b4")
+		)
+		(instances
+			(project ""
+				(path "/4ea1f384-c862-43ec-92d4-f7c9e466db45/4dcac36d-d733-4f9b-8697-e6fa98d58f64"
+					(reference "R9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Transistor_FET:IRLZ44N")
+		(at 262.89 120.65 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9be92bfb-406e-45b8-a1ab-754487b2cb3b")
+		(property "Reference" "Q13"
+			(at 269.24 119.3799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "IRLZ44N"
+			(at 269.24 121.9199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_THT:TO-220-3_Vertical"
+			(at 267.97 122.555 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.irf.com/product-info/datasheets/data/irlz44n.pdf"
+			(at 267.97 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "47A Id, 55V Vds, 22mOhm Rds Single N-Channel HEXFET Power MOSFET, TO-220AB"
+			(at 262.89 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2c8ca982-bb15-4033-95ee-e3a9cfbcbf04")
+		)
+		(pin "2"
+			(uuid "17d3d532-0206-467d-a638-f5d1020abb48")
+		)
+		(pin "3"
+			(uuid "8c2ee0c9-60df-4a28-8b66-4b7a9f515cf0")
+		)
+		(instances
+			(project "DC_DC_CONVERTER"
+				(path "/4ea1f384-c862-43ec-92d4-f7c9e466db45/4dcac36d-d733-4f9b-8697-e6fa98d58f64"
+					(reference "Q13")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:1N4004")
+		(at 223.52 95.25 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9ea58837-dab8-4650-bfd8-0725f21274c2")
+		(property "Reference" "D5"
+			(at 223.52 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1N4004"
+			(at 223.52 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal"
+			(at 223.52 90.805 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.vishay.com/docs/88503/1n4001.pdf"
+			(at 223.52 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "400V 1A General Purpose Rectifier Diode, DO-41"
+			(at 223.52 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 223.52 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 223.52 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "1b0defb9-1625-4d2f-b540-df1c33933f1f")
+		)
+		(pin "1"
+			(uuid "12d65fbb-e193-461b-87ed-09cb79a0f2d3")
+		)
+		(instances
+			(project "DC_DC_CONVERTER"
+				(path "/4ea1f384-c862-43ec-92d4-f7c9e466db45/4dcac36d-d733-4f9b-8697-e6fa98d58f64"
+					(reference "D5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Transistor_BJT:BC547")
+		(at 138.43 158.75 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a39a801b-1403-47a9-9a60-983f2605e538")
+		(property "Reference" "Q15"
+			(at 143.51 157.4799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "BC547"
+			(at 143.51 160.0199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_THT:TO-92_Inline"
+			(at 143.51 160.655 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.onsemi.com/pub/Collateral/BC550-D.pdf"
+			(at 138.43 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "0.1A Ic, 45V Vce, Small Signal NPN Transistor, TO-92"
+			(at 138.43 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "e67a19c5-788d-432b-bf6f-c0176bfc74e0")
+		)
+		(pin "1"
+			(uuid "4334a5da-8f78-4174-9c75-c038f6307f51")
+		)
+		(pin "3"
+			(uuid "35033746-3602-48b1-bf84-f0d563a29500")
+		)
+		(instances
+			(project "DC_DC_CONVERTER"
+				(path "/4ea1f384-c862-43ec-92d4-f7c9e466db45/4dcac36d-d733-4f9b-8697-e6fa98d58f64"
+					(reference "Q15")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "IR2104_2")
+		(lib_id "Driver_FET:IR2104")
+		(at 222.25 104.14 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ad60d756-69ac-4a8d-acc6-4779d562dc80")
+		(property "Reference" "U7"
+			(at 221.742 100.584 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "IR2104"
+			(at 220.218 103.124 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 222.25 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.infineon.com/dgdl/ir2104.pdf?fileId=5546d462533600a4015355c7c1c31671"
+			(at 223.266 72.898 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Half-Bridge Driver, 600V, 210/360mA, PDIP-8/SOIC-8"
+			(at 223.52 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "af02ff4b-cc25-481b-b147-24d668957b8d")
+		)
+		(pin "3"
+			(uuid "d51d899d-e15d-4335-899d-7669a46081e0")
+		)
+		(pin "1"
+			(uuid "38930078-118c-49b5-acdd-8129490c6295")
+		)
+		(pin "4"
+			(uuid "910f7afb-b82e-41b1-91eb-3f7675bf5227")
+		)
+		(pin "8"
+			(uuid "27cd0c6f-a107-497f-9b16-e260f35b932a")
+		)
+		(pin "7"
+			(uuid "cfae5176-5b5b-4b43-a611-84023a6d4683")
+		)
+		(pin "6"
+			(uuid "a42215bb-0533-41cb-8208-d43cc005c5ee")
+		)
+		(pin "5"
+			(uuid "b9188de8-c7e6-46bf-86a6-90a35bed204e")
+		)
+		(instances
+			(project "DC_DC_CONVERTER"
+				(path "/4ea1f384-c862-43ec-92d4-f7c9e466db45/4dcac36d-d733-4f9b-8697-e6fa98d58f64"
+					(reference "U7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Transistor_FET:IRLZ44N")
+		(at 146.05 134.62 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "bf64f4e3-1e81-4f58-92c1-163dabd8c148")
+		(property "Reference" "Q9"
+			(at 152.4 133.3499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "IRLZ44N"
+			(at 152.4 135.8899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_THT:TO-220-3_Vertical"
+			(at 151.13 136.525 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.irf.com/product-info/datasheets/data/irlz44n.pdf"
+			(at 151.13 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "47A Id, 55V Vds, 22mOhm Rds Single N-Channel HEXFET Power MOSFET, TO-220AB"
+			(at 146.05 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "42cd75fd-ae0e-47f1-add6-6034feb6f834")
+		)
+		(pin "2"
+			(uuid "343df815-ab93-4716-bd3f-45213c414662")
+		)
+		(pin "3"
+			(uuid "a9874ade-bb69-4d60-8c58-7a639e12b26d")
+		)
+		(instances
+			(project "DC_DC_CONVERTER"
+				(path "/4ea1f384-c862-43ec-92d4-f7c9e466db45/4dcac36d-d733-4f9b-8697-e6fa98d58f64"
+					(reference "Q9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "IR2104_2")
+		(lib_id "Driver_FET:IR2104")
+		(at 222.25 54.61 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c045957b-34ec-41c6-a8f9-2939ec3b0e98")
+		(property "Reference" "U6"
+			(at 221.742 51.054 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "IR2104"
+			(at 220.218 53.594 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 222.25 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.infineon.com/dgdl/ir2104.pdf?fileId=5546d462533600a4015355c7c1c31671"
+			(at 223.266 23.368 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Half-Bridge Driver, 600V, 210/360mA, PDIP-8/SOIC-8"
+			(at 223.52 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "cfe286c8-310b-45d1-85e6-e26a2bd27af2")
+		)
+		(pin "3"
+			(uuid "cfc4efef-1ea9-4b85-a33b-0dd97510038a")
+		)
+		(pin "1"
+			(uuid "3085e5b7-bca0-4503-bdaf-f8710236e8cd")
+		)
+		(pin "4"
+			(uuid "53ee2bc2-48d5-4ddd-87f0-e77c85dd514c")
+		)
+		(pin "8"
+			(uuid "cf5c1b76-8b5e-4a28-8ce9-9354cfaf5da2")
+		)
+		(pin "7"
+			(uuid "6d8bd97d-4484-414e-8dce-d018771dbe1d")
+		)
+		(pin "6"
+			(uuid "97650efb-a193-4de6-afb3-63ab4865c8ab")
+		)
+		(pin "5"
+			(uuid "d02a81d7-d695-4a4c-8336-0260ac737f1d")
+		)
+		(instances
+			(project ""
+				(path "/4ea1f384-c862-43ec-92d4-f7c9e466db45/4dcac36d-d733-4f9b-8697-e6fa98d58f64"
+					(reference "U6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 243.84 105.41 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d308d3c3-f393-41f6-b24f-48ccb502ef92")
+		(property "Reference" "C15"
+			(at 247.65 104.1399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "C"
+			(at 247.65 106.6799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 244.8052 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 243.84 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 243.84 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3bec0ebf-ad6d-46e6-b33d-31f302b34b5f")
+		)
+		(pin "2"
+			(uuid "327d6617-fb92-4e2e-961b-93d5e252beff")
+		)
+		(instances
+			(project "DC_DC_CONVERTER"
+				(path "/4ea1f384-c862-43ec-92d4-f7c9e466db45/4dcac36d-d733-4f9b-8697-e6fa98d58f64"
+					(reference "C15")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Transistor_FET:IRLZ44N")
+		(at 262.89 50.8 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "dc02e026-dfbf-460f-984d-651e272d5b2b")
+		(property "Reference" "Q7"
+			(at 269.24 49.5299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "IRLZ44N"
+			(at 269.24 52.0699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_THT:TO-220-3_Vertical"
+			(at 267.97 52.705 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.irf.com/product-info/datasheets/data/irlz44n.pdf"
+			(at 267.97 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "47A Id, 55V Vds, 22mOhm Rds Single N-Channel HEXFET Power MOSFET, TO-220AB"
+			(at 262.89 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7aeb73f3-b95b-4931-80b9-d59e3a59ec45")
+		)
+		(pin "2"
+			(uuid "e9ccf4d1-786e-4ab8-98dd-189518e82247")
+		)
+		(pin "3"
+			(uuid "51e55f09-cb3f-4ef8-ae97-43d88587d585")
+		)
+		(instances
+			(project "DC_DC_CONVERTER"
+				(path "/4ea1f384-c862-43ec-92d4-f7c9e466db45/4dcac36d-d733-4f9b-8697-e6fa98d58f64"
+					(reference "Q7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Transistor_FET:IRLZ44N")
+		(at 229.87 149.86 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "dd5df5e6-bea0-42d6-8fb1-7b56b900d29e")
+		(property "Reference" "Q5"
+			(at 236.22 148.5899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "IRLZ44N"
+			(at 236.22 151.1299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_THT:TO-220-3_Vertical"
+			(at 234.95 151.765 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.irf.com/product-info/datasheets/data/irlz44n.pdf"
+			(at 234.95 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "47A Id, 55V Vds, 22mOhm Rds Single N-Channel HEXFET Power MOSFET, TO-220AB"
+			(at 229.87 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a30840a3-19af-41de-85bf-63842df71ad5")
+		)
+		(pin "2"
+			(uuid "d08dcca8-c711-449d-afc7-2ab111b0b651")
+		)
+		(pin "3"
+			(uuid "8520877c-f19b-47d1-9c94-9ae7047fd77f")
+		)
+		(instances
+			(project "DC_DC_CONVERTER"
+				(path "/4ea1f384-c862-43ec-92d4-f7c9e466db45/4dcac36d-d733-4f9b-8697-e6fa98d58f64"
+					(reference "Q5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Transistor_FET:IRLZ44N")
+		(at 262.89 100.33 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "df2dc370-9269-4a7d-a8e7-cce0506c000a")
+		(property "Reference" "Q12"
+			(at 269.24 99.0599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "IRLZ44N"
+			(at 269.24 101.5999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_THT:TO-220-3_Vertical"
+			(at 267.97 102.235 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.irf.com/product-info/datasheets/data/irlz44n.pdf"
+			(at 267.97 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "47A Id, 55V Vds, 22mOhm Rds Single N-Channel HEXFET Power MOSFET, TO-220AB"
+			(at 262.89 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "426f5bfd-c437-4897-bbd1-0c6f554a46bb")
+		)
+		(pin "2"
+			(uuid "405d4819-6488-4ce5-bf6c-379db4c9c30e")
+		)
+		(pin "3"
+			(uuid "8fadf796-8ee2-4f3d-a65e-1304496c7888")
+		)
+		(instances
+			(project "DC_DC_CONVERTER"
+				(path "/4ea1f384-c862-43ec-92d4-f7c9e466db45/4dcac36d-d733-4f9b-8697-e6fa98d58f64"
+					(reference "Q12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Transistor_BJT:BC547")
+		(at 107.95 158.75 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ec46a2e5-f587-4f2c-b26f-8a64050a2837")
+		(property "Reference" "Q14"
+			(at 113.03 157.4799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "BC547"
+			(at 113.03 160.0199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_THT:TO-92_Inline"
+			(at 113.03 160.655 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.onsemi.com/pub/Collateral/BC550-D.pdf"
+			(at 107.95 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "0.1A Ic, 45V Vce, Small Signal NPN Transistor, TO-92"
+			(at 107.95 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "15708b68-b8b9-4736-ae34-2d359b943e33")
+		)
+		(pin "1"
+			(uuid "3c8c9b5c-d233-48ca-b5a9-3eaa3ce28965")
+		)
+		(pin "3"
+			(uuid "d13eb611-4ced-4682-9f81-011d9672ab32")
+		)
+		(instances
+			(project "DC_DC_CONVERTER"
+				(path "/4ea1f384-c862-43ec-92d4-f7c9e466db45/4dcac36d-d733-4f9b-8697-e6fa98d58f64"
+					(reference "Q14")
+					(unit 1)
+				)
+			)
+		)
+	)
+)
