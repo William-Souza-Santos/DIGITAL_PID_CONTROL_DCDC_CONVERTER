@@ -1,4 +1,4 @@
-25229910020105588
+25233403900344847
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -66738,6 +66738,13 @@ RELAY_SRD-05VDC-SL-C
 5
 5
 Library
+SAMTEC_HTSW-101-07-S-T
+
+
+0
+3
+3
+Library
 SAMTEC_MTSW-101-06-T-T-100
 
 
@@ -66751,6 +66758,13 @@ LM2576HVT-5.0
 0
 5
 5
+Logo
+Logo_IFSP
+
+
+0
+0
+0
 Module
 A20_OLINUXINO_LIME2
 A20 Olinuxino LIME2, 1.2GHz, 512-1024MB RAM, Micro-SD, NAND or eMMC, 1000Mbit Ethernet

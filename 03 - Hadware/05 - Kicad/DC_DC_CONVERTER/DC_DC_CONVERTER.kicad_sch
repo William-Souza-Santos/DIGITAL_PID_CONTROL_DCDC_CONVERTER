@@ -14213,7 +14213,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Library:SAMTEC_MTSW-101-06-T-T-100"
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical"
 			(at 57.15 36.83 0)
 			(effects
 				(font
@@ -15151,7 +15151,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" " ~"
+		(property "Datasheet" "~"
 			(at 228.6 48.26 0)
 			(effects
 				(font
@@ -15375,7 +15375,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "\n                        \n                            Display Development Tools 16x2 Black on Green Char LCD w Backlight\n                        \n"
+		(property "Description" "Display Development Tools 16x2 Black on Green Char LCD w Backlight"
 			(at 59.69 163.83 0)
 			(effects
 				(font
