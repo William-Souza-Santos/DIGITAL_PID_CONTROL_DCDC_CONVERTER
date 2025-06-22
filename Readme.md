@@ -29,8 +29,8 @@ While tailored for **automotive applications**, this solution is also suitable f
 
 - **MATLAB/Simulink** – System modeling and control validation  
 - **Proteus** – Circuit simulation and testbench development  
-- **Arduino IDE** – Embedded firmware for ATmega328P  
-- **EasyEDA / KiCad** – PCB schematic and layout design
+- **Arduino IDE/MAPLAB** – Embedded firmware for ATmega328P  
+- **KiCad** – PCB schematic and layout design
 
 ## 👨‍💻 Authors
 
