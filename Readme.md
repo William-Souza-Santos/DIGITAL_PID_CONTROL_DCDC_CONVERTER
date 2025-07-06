@@ -7,7 +7,7 @@ This project presents the development of a four-switch bidirectional buck-boost 
 ## CIRCUIT OVERVIEW
 
 <p align="center">
-  <img src="09 - Pictures/Bidirectional_Circuit.png" width="400">
+  <img src="09 - Pictures/Bidirectional_Circuit.png" width="800">
 </p>
 
 <p align="center">
