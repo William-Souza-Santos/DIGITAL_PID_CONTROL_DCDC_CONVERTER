@@ -52,8 +52,8 @@ While tailored for **automotive applications**, this solution is also suitable f
 
 #### 
 <p align="center">
+  <strong>Buck Wave Form</strong><br>
   <img src="09 - Pictures/Curve_buck.bmp" width="800"><br>
-  <em> Buck Wave Form</em>
 </p>
 
 <p align="center">
