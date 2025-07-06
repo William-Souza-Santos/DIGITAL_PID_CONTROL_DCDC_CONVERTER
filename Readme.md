@@ -4,8 +4,11 @@
 This project presents the development of a four-switch bidirectional buck-boost DC-DC converter with a digital control system based on fuzzy logic. It is intended for embedded and automotive power applications, ensuring stability, precision, and adaptability in managing energy flows in both directions.
 
 
+## CIRCUIT OVERVIEW
+
 <p align="center">
   <img src="09 - Pictures/Proteus_Full_circuit.png" width="400">
+  <img src="09 - Pictures/Bidirectional_Circuit.png" width="400">
 </p>
 
 ## 🔧 Project Overview
