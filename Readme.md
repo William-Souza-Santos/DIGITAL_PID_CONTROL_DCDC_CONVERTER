@@ -79,6 +79,18 @@ While tailored for **automotive applications**, this solution is also suitable f
   <img src="09 - Pictures/Curves_Boost.bmp" width="800">
 </p>
 
+## SCHEMATIC
+
+<p align="center">
+  <img src="09 - Pictures/Schematic Final Version DC DC CONVERTER_page-0002" width="800"><br>
+</p>
+
+## 3D VIEW
+
+<p align="center">
+  <img src="09 - Pictures/DC_DC_CONVERTER_TOP.jpg" width="800"><br>
+</p>
+
 ## 👨‍💻 Authors
 
 - Marcelo Oliveira de Jesus Júnior  
