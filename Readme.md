@@ -13,6 +13,10 @@ This project presents the development of a four-switch bidirectional buck-boost 
 ## CIRCUIT OVERVIEW PROTEUS
 
 <p align="center">
+  <img src="09 - Pictures/Monitoring.png" width="600">
+</p>
+
+<p align="center">
   <img src="09 - Pictures/Proteus_Full_circuit.png" width="600">
 </p>
 
