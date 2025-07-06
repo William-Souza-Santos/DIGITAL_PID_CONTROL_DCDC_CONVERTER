@@ -11,7 +11,7 @@ This project presents the development of a four-switch bidirectional buck-boost 
 </p>
 
 <p align="center">
-  <img src="09 - Pictures/Proteus_Full_circuit.png" width="400">
+  <img src="09 - Pictures/Proteus_Full_circuit.png" width="600">
 </p>
 
 ## 🔧 Project Overview
