@@ -52,11 +52,12 @@ While tailored for **automotive applications**, this solution is also suitable f
 
 #### 
 <p align="center">
-  <strong>Buck Wave Form</strong><br>
+  <strong>BUCK WAVE FORM</strong><br>
   <img src="09 - Pictures/Curve_buck.bmp" width="800"><br>
 </p>
 
 <p align="center">
+   <strong>BOOST WAVE FORM </strong><br>
   <img src="09 - Pictures/Curves_Boost.bmp" width="800">
 </p>
 
