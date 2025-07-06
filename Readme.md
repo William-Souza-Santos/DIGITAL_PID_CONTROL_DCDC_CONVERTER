@@ -74,6 +74,20 @@ Although tailored for automotive use, the converter is also applicable to:
   <img src="09 - Pictures/Operational_Mode_BOOST.png" width="500"><br>
 </p>
 
+---
+
+## 📝 Theoretical Foundations (Table)
+
+<p align="center">
+  <strong>A-B OPERATING</strong><br>
+  <img src="09 - Pictures/A-B_Funcionamento.png" width="500"><br>
+</p>
+
+<p align="center">
+  <strong>B-A OPERATING</strong><br>
+  <img src="09 - Pictures/B-A_funcionalidade.png" width="500"><br>
+</p>
+
 
 
 ---
