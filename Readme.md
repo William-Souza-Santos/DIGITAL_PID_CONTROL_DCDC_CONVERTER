@@ -42,6 +42,19 @@ While tailored for **automotive applications**, this solution is also suitable f
   <img src="09 - Pictures/Proteus_Full_circuit.png" width="600">
 </p>
 
+## DC DC CONVERTER PERFORMANCE WITHOUT CONTROL IMPLEMENTATION
+
+# OPERATION MODES
+
+
+# WAVE FORM
+<p align="center">
+  <img src="09 - Pictures/Curve_buck.bmp" width="400">
+</p>
+
+<p align="center">
+  <img src="09 - Pictures/Curves_Boost.bmp" width="400">
+</p>
 
 ## 👨‍💻 Authors
 
