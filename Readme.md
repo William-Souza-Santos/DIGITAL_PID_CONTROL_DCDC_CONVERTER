@@ -66,7 +66,7 @@ While tailored for **automotive applications**, this solution is also suitable f
   <img src="09 - Pictures/B-A_BUCK.png" width="800"><br>
 </p>
 
-
+<!-- COMMENT
 ### WAVE FORM
 
 <p align="center">
@@ -78,7 +78,7 @@ While tailored for **automotive applications**, this solution is also suitable f
    <strong>BOOST WAVE FORM </strong><br>
   <img src="09 - Pictures/Curves_Boost.bmp" width="800">
 </p>
-
+-->
 ## SCHEMATIC
 
 <p align="center">
