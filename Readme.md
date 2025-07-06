@@ -35,11 +35,10 @@ While tailored for **automotive applications**, this solution is also suitable f
 ## CIRCUIT OVERVIEW PROTEUS
 
 <p align="center">
-  
+  <img src="09 - Pictures/Monitoring.png" width="400">
 </p>
 
 <p align="center">
-  <img src="09 - Pictures/Monitoring.png" width="600">
   <img src="09 - Pictures/Proteus_Full_circuit.png" width="600">
 </p>
 
