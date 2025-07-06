@@ -65,9 +65,16 @@ Although tailored for automotive use, the converter is also applicable to:
 </p>
 
 <p align="center">
+  <strong>BUCK-BOOST (Transition Mode)</strong><br>
+  <img src="09 - Pictures/Buck_BOOST_DESCRIBE.png" width="500"><br>
+</p>
+
+<p align="center">
   <strong>BOOST</strong><br>
   <img src="09 - Pictures/Operational_Mode_BOOST.png" width="500"><br>
 </p>
+
+
 
 ---
 
