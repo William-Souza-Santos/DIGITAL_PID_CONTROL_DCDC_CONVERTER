@@ -36,7 +36,7 @@ void setup() {
   TCCR1A = (1 << COM1A1) | (1 << WGM11);
   TCCR1B = (1 << WGM13) | (1 << WGM12) | (1 << CS10);
   ICR1 = 1600;  // Frequência de 40 kHz (16 MHz / 1600 = 10 kHz)
-  OCR1A = 1000;  // 50% de duty cycle (800/1600)
+  OCR1A = 1500;  // 50% de duty cycle (800/1600)
 
   DUTY_CYCLE = (int)(((float)OCR1A / ICR1) * 100); // Cálculo correto do duty cycle
 
