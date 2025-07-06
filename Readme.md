@@ -75,7 +75,7 @@ Although tailored for automotive use, the converter is also applicable to:
 </p>
 
 <!--
-## 📉 Waveforms
+## 📉 Theorical Fundamentation and Transition Mode
 
 <p align="center">
   <strong>Buck Waveform</strong><br>
