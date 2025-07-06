@@ -59,6 +59,16 @@ Although tailored for automotive use, the converter is also applicable to:
   <img src="09 - Pictures/Hysteresis_Between_Buck_and_Boost.png" width="500"><br>
 </p>
 
+<p align="center">
+  <strong>BUCK</strong><br>
+  <img src="09 - Pictures/Operational_Mode_BUCK.png" width="500"><br>
+</p>
+
+<p align="center">
+  <strong>BOOST</strong><br>
+  <img src="09 - Pictures/Operational_Mode_BOOST.png" width="500"><br>
+</p>
+
 ---
 
 ## 🔁 Bidirectional Operation (Open-Loop Tests)
