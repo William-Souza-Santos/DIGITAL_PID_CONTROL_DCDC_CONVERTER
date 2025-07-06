@@ -102,7 +102,7 @@ Although tailored for automotive use, the converter is also applicable to:
 ## 🖥️ Choosing a Microcontroller
 
 <p align="center">
-  <img src="09 - Pictures/Microcontroller_Choice.png" width="400"><br>
+  <img src="09 - Pictures/Microcontroller_Choice.png" width="700"><br>
 </p>
 
 ---
