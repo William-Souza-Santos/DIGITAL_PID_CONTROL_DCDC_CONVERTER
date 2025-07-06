@@ -76,7 +76,7 @@ Although tailored for automotive use, the converter is also applicable to:
 
 ---
 
-## 📝 Theoretical Foundations (Table)
+## 📝 Theoretical Foundations (Table Operating)
 
 <p align="center">
   <strong>A-B OPERATING</strong><br>
