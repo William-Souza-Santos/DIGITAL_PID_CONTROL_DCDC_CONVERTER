@@ -44,13 +44,31 @@ While tailored for **automotive applications**, this solution is also suitable f
 
 ## DC DC CONVERTER PERFORMANCE WITHOUT CONTROL IMPLEMENTATION
 
-### OPERATION MODES
+### BIDIRECTIONAL OPERATION
 
+<p align="center">
+  <strong>A-B_BOOST</strong><br>
+  <img src="09 - Pictures/A-B_BOOST.png" width="400"><br>
+</p>
+
+<p align="center">
+  <strong>A-B_BUCK</strong><br>
+  <img src="09 - Pictures/A-B_BUCK (2).png" width="400"><br>
+</p>
+
+<p align="center">
+  <strong>B-A_BOOST</strong><br>
+  <img src="09 - Pictures/B-A_BOOST.png" width="400"><br>
+</p>
+
+<p align="center">
+  <strong>B-A_BUCK</strong><br>
+  <img src="09 - Pictures/B-A_BUCK.png" width="400"><br>
+</p>
 
 
 ### WAVE FORM
 
-#### 
 <p align="center">
   <strong>BUCK WAVE FORM</strong><br>
   <img src="09 - Pictures/Curve_buck.bmp" width="800"><br>
