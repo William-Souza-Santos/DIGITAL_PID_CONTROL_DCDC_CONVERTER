@@ -32,7 +32,6 @@ While tailored for **automotive applications**, this solution is also suitable f
 - Aerospace power electronics
 
 
-
 ## CIRCUIT OVERVIEW PROTEUS
 
 <p align="center">
@@ -43,13 +42,6 @@ While tailored for **automotive applications**, this solution is also suitable f
   <img src="09 - Pictures/Proteus_Full_circuit.png" width="600">
 </p>
 
-
-## 🧰 Technologies Used
-
-- **MATLAB/Simulink** – System modeling and control validation  
-- **Proteus** – Circuit simulation and testbench development  
-- **Arduino IDE/MAPLAB** – Embedded firmware for ATmega328P  
-- **KiCad** – PCB schematic and layout design
 
 ## 👨‍💻 Authors
 
