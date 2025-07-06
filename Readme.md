@@ -40,11 +40,9 @@ While tailored for **automotive applications**, this solution is also suitable f
 
 <p align="center">
   <img src="09 - Pictures/Proteus_Full_circuit.png" width="600">
-</p>
+</p> 
 
-## DC DC CONVERTER PERFORMANCE WITHOUT CONTROL IMPLEMENTATION
-
-### BIDIRECTIONAL OPERATION
+### BIDIRECTIONAL OPERATION WITHOUT CONTROL IMPLEMENTATION
 
 <p align="center">
   <strong>A-B_BOOST</strong><br>
@@ -79,6 +77,14 @@ While tailored for **automotive applications**, this solution is also suitable f
   <img src="09 - Pictures/Curves_Boost.bmp" width="800">
 </p>
 -->
+
+## FUZZY CONTROL OVERVIEW IN MATLAB/SIMULINK 
+
+<p align="center">
+  <strong>CLOSED LOOP</strong><br>
+  <img src="09 - Pictures/Malha Fechada.png" width="800"><br>
+</p>
+
 ## SCHEMATIC
 
 <p align="center">
