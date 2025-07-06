@@ -82,7 +82,7 @@ While tailored for **automotive applications**, this solution is also suitable f
 ## SCHEMATIC
 
 <p align="center">
-  <img src="09 - Pictures/Schematic Final Version DC DC CONVERTER_page-0002" width="800"><br>
+  <img src="09 - Pictures/Schematic Final Version DC DC CONVERTER_page-0002" width="400"><br>
 </p>
 
 ## 3D VIEW
