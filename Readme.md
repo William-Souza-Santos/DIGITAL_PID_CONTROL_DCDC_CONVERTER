@@ -49,11 +49,11 @@ While tailored for **automotive applications**, this solution is also suitable f
 
 # WAVE FORM
 <p align="center">
-  <img src="09 - Pictures/Curve_buck.bmp" width="400">
+  <img src="09 - Pictures/Curve_buck.bmp" width="800">
 </p>
 
 <p align="center">
-  <img src="09 - Pictures/Curves_Boost.bmp" width="400">
+  <img src="09 - Pictures/Curves_Boost.bmp" width="800">
 </p>
 
 ## 👨‍💻 Authors
